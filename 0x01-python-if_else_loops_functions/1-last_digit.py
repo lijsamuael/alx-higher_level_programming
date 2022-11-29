@@ -4,6 +4,7 @@ number = random.randint(-10000, 10000)
 num_string = repr(number)
 num_str = num_string[-1]
 num_strg = int(num_str)
+num_strg = num_strg + 0
 less = "and is less than 6 and not 0"
 if num_strg > 5:
     stat = "and is greater than 5"
