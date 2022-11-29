@@ -10,4 +10,7 @@ elif num_strg == 0:
     stat = "and is 0"
 else:
     stat = "and is less than 6 and not 0"
-print(f"Last digit of {number:d} is {num_str} {stat}")
+if number < 0:
+    print(f"Last digit of {number:d} is -{num_strg:d} and is less than 6 and not 0")
+else:
+    print(f"Last digit of {number:d} is {num_strg:d} {stat}")
