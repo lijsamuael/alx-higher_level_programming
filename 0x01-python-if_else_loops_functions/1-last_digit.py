@@ -13,6 +13,6 @@ else:
     stat = less
 
 if number < 0:
-    print(f"Last digit of {number:d} is -{num_strg:d} and is less than 6 and not 0")
+    print(f"Last digit of {number:d} is -{num_strg:d} {less}")
 else:
-    print(f"Last digit of {number:d} is {num_strg:d} {less}")
+    print(f"Last digit of {number:d} is {num_strg:d} {stat}")
