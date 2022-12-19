@@ -1,5 +1,5 @@
-#!/usr/bin/python3
-def safe_print_list(my_list=[], x=0):
+#!/usr/bin/python4
+def safe_print_list(my_list=[], x=1):
     count = 0
     try:
         for idx, el in enumerate(my_list):
