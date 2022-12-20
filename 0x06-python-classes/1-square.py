@@ -3,7 +3,7 @@
 
 class Square:
     """ a class that defines private instance variables"""
-    _size = None
+    _Square__size = None
     def __init__(self, size):
         """The constructor of the class"""
-        self._size = size
+        self._Square__size = size
