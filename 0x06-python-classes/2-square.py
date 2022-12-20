@@ -13,7 +13,7 @@ class Square:
         """The constructor of the class"""
 
         self._Square__size = size
-        if isinstance(size, int) == False:
-            raise(TypeError("size must be an integer"))
+        if not isinstance(size, int):
+            raise (TypeError("size must be an integer"))
         if size < 0:
-            raise(ValueError("size must be >= 0"))
+            raise (ValueError("size must be >= 0"))
