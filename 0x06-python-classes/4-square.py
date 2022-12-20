@@ -14,7 +14,7 @@ class Square:
         return self.__size
 
     _Square__size = None
-    
+
     @size.setter
     def size(self, size=0):
 
