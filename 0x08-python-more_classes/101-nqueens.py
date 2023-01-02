@@ -1,10 +1,13 @@
 #!/usr/bin/python3
 """This module has functions for the infamous N-queens problem"""
+
+
 import sys
 
 
 def checkPos(board, pos):
     """Function to check if a position is valid for a queen"""
+
     for x in range(pos[0]):
         if board[x][pos[1]] == 1:
             return False
@@ -63,6 +66,7 @@ def main():
     nqueens(board, 0, sols)
     for x in sols:
         print(x)
+
 
 if __name__ == "__main__":
     main()
