@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-def copy_list(a):
+def copy_list(l):
     """sth"""
-    return a[:]
+    return l[:]
